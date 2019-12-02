@@ -7,3 +7,11 @@ jobs:
       - uses: actions/checkout@master
       - name: Install root dependencies
         uses: bahmutov/npm-install@v1
+
+      - name: Start server in the background
+        run: npm start &
+
+      - name: Install Cypress and run tests
+        uses: cypress-io/github-action@4e415ee
+        with:
+          working-folder: e2e
