@@ -14,4 +14,4 @@ jobs:
       - name: Install Cypress and run tests
         uses: cypress-io/github-action@4e415ee
         with:
-          working-folder: e2e
+          working-directory: e2e
