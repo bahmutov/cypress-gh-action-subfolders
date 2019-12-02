@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
-it('works', () => {
-  cy.wrap(1).should('equal', 1)
+it('loads page', () => {
+  cy.visit('/')
+  cy.contains('Example page').should('be.visible')
 })
