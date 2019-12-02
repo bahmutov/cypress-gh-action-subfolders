@@ -1,0 +1,9 @@
+name: E2E
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Install root dependencies
+        uses: bahmutov/npm-install@v1
