@@ -11,7 +11,8 @@ jobs:
       - name: Start server in the background
         run: npm start &
 
+      # Cypress has its own package.json in folder "e2e"
       - name: Install Cypress and run tests
-        uses: cypress-io/github-action@4e415ee
+        uses: cypress-io/github-action@v1
         with:
           working-directory: e2e

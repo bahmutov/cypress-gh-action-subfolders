@@ -16,6 +16,6 @@ root/
     cypress
 
   (code for running the "app" with "npm start")
-  package.lock
+  package.json
   yarn.lock
 ```
