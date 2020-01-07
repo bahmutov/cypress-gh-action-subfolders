@@ -1,4 +1,4 @@
-# cypress-gh-action-subfolders
+# cypress-gh-action-subfolders [![renovate-app badge][renovate-badge]][renovate-app]
 
 > Example using Cypress GitHub Action when Cypress is installed in a subfolder
 
@@ -19,3 +19,6 @@ root/
   package.json
   yarn.lock
 ```
+
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
