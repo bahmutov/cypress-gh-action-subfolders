@@ -1,4 +1,4 @@
-# cypress-gh-action-subfolders [![renovate-app badge][renovate-badge]][renovate-app]
+# cypress-gh-action-subfolders [![renovate-app badge][renovate-badge]][renovate-app] ![CI status](https://github.com/bahmutov/cypress-gh-action-subfolders/workflows/E2E/badge.svg?branch=master)
 
 > Example using Cypress GitHub Action when Cypress is installed in a subfolder
 
