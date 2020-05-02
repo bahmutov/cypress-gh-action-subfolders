@@ -21,6 +21,6 @@
     "prettier": "2.0.5"
   },
   "dependencies": {
-    "http-server": "0.12.1"
+    "http-server": "0.12.3"
   }
 }
