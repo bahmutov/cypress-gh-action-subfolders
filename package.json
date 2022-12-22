@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/bahmutov/cypress-gh-action-subfolders#readme",
   "devDependencies": {
-    "prettier": "2.1.2"
+    "prettier": "2.8.1"
   },
   "dependencies": {
-    "http-server": "0.12.3"
+    "http-server": "14.1.1"
   }
 }
